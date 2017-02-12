@@ -1,0 +1,126 @@
+body {
+	height: 900px;
+}
+
+.top-panel {
+	width: 100%;
+	background-color: #F5F5F5;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e2e2e2;
+	display: block;
+	min-height: 50px;
+	overflow: visible;
+	margin-bottom: 0px;
+
+}
+
+.shop-name {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #999;
+	line-height: 45px;
+	margin-left: 11%;
+}
+
+.top-icons {
+	display: block;
+	position: relative;
+	line-height: 45px;
+	margin-right: 11%;
+}
+
+.user-menu li a {
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #999;
+}
+
+.container {
+	width: 80%;
+}
+
+.top-image {
+	background: url('../img/header.jpg') no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	background-position: center;
+	display: block;
+	max-width: 100%;
+	max-height: 400px;
+	padding-top: 25%;
+}
+
+.searching-block {
+	margin-top: 10px;
+	background-color: #3BF150;
+	border-radius: 5px;
+}
+
+#form-search {
+	padding: 5px;
+}
+
+#form-search:active {
+	padding: 5px;
+}
+
+#form-search>span>button {
+	margin-right: 0;
+	outline: none;
+}
+
+.bag-block {
+	margin-top: 10px;
+	padding-right: 0;
+	display: block;
+}
+
+.bag-block>button {
+	color: #fff;
+	background: linear-gradient(to bottom, #FFB037, #FF9900);
+	background:-webkit-linear-gradient(to bottom, #FFB037, #FF9900);
+    background:-moz-linear-gradient(to bottom, #FFB037, #FF9900);
+    background:-ms-linear-gradient(to bottom, #FFB037, #FF9900);
+	height: 56px;
+	font-size: 16px;
+}
+
+.bag-block>button:hover {
+	background: #FF9A00;
+	font-size: 16px;
+}
+
+@media all and (max-width: 767px) {
+
+.bag-block {
+	padding-left: 0;
+}
+
+.container {
+	width: 100%;
+}
+
+nav>ul>li>a {
+	font-size: 10px;
+}
+
+}
+
+main {
+	height: 900px;
+}
+
+.navigation {
+	margin-top: 10px;
+	background: #3BF150;
+	border-radius: 5px;
+}
+
+nav>ul>li>a {
+	font-size: 16px;
+	color: #fff;
+
+.navigation {
+	
+}
