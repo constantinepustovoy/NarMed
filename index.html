@@ -17,105 +17,401 @@
     <![endif]-->
 </head>
 <body>
-	<div class="panel top-panel">
-		<div class="pull-left shop-name">
-			Официальный магазин-дилер ООО "Народная медицина"
-		</div>
-		<div class="top-icons pull-right">
-		<ul class="list-inline user-menu">
-			<li class="dropdown"><a href="#" title = "Личный кабинет" class="dropdown-toggle" data-toggle="dropdown">
-				<span class="glyphicon glyphicon-user"></span> 
-				<span class="hidden-xs hidden-sm hidden-md">Личный кабинет</span>
-				<span class="caret"></span></a>
-				<ul class="dropdown-menu dropdown-menu-right">
-					<li><a href="#">Регистрация</a></li>
-					<li><a href="#">Авторизация</a></li>
-				</ul>
-			</li>
-			<li><a href="#">
-				<span class="glyphicon glyphicon-heart"></span> 
-				<span class="hidden-xs hidden-sm hidden-md">Мои закладки (0)</span></a></li>
-			<li><a href="#">
-				<span class="glyphicon glyphicon-shopping-cart"></span> 
-				<span class="hidden-xs hidden-sm hidden-md">Корзина покупок</span>
-			</a></li>
-			<li><a href="#">
-			<span class="glyphicon glyphicon-share-alt"></span>
-				<span class="hidden-xs hidden-sm hidden-md">Оформление заказа</span>
 
-			</a></li>
-		</ul>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-	<div class="container">
-		<header>
-			<div class="top-image hidden-xs hidden-sm"></div>
-			<div class="col-sm-8 col-xs-12 searching-block pull-left">
-				<form class="form-search input-group" id="form-search">
-					<input type="text" name="search" placeholder="Поиск..." class="form-control input-lg">
-					<span class="input-group-btn">
-						<button type="submit" class="btn btn-default btn-lg">
-						<span class="glyphicon glyphicon-search"></span>
-						</button>
-					</span>
-				</form>
-			</div>
-			<div class="col-sm-4 col-xs-12 bag-block pull-right">
-				<button class="btn btn-inverse btn-block btn-lg dropdown-toggle">
-					<span class="glyphicon glyphicon-shopping-cart"></span>
-					<span id="cart-total">0 товар(ов) - 0.00 руб.</span>
-				</button>
-			</div>
-		<div class="clearfix"></div>
-
-		<nav class="navigation col-sm-8 col-xs-12 navbar-inner pull-left ">
-			<ul class="nav navbar-nav" id="menu">
-				<li><a href="">Главная</a></li>
-				<li><a href="">Акции</a></li>
-				<li><a href="">Масла</a></li>
-				<li><a href="">Травы</a></li>
-				<li><a href="">Ванны</a></li>
-				<li><a href="">Фитолюксы</a></li>
-				<li><a href="">Чаи</a></li>
-				<li><a href="">Экстракты</a></li>
-			</ul>
-		</nav>
-		<div class="service-btns">
-			<div class="payment col-lg-2 col-md-2 col-sm-2 col-xs-6">
-				<button type="button" class="payment-btn btn btn-default btn-block service-btn">Оплата</button>
-			</div>
-			<div class="delivery col-lg-2 col-md-2 col-sm-2 col-xs-6">
-				<button type="button" class="delivery-btn btn btn-default btn-block service-btn">Доставка</button>
-			</div>
-		</div>
-		</div>
-	<div class="clearfix"></div>
-	</header>
-	<main>
-		
-	</main>
+  
+  <div class="top-panel  panel">
+  	<div class="container">
+  	  <div class="top-panel__company-name  pull-left">
+  	    ООО "МК "Народная медицина"
+  	  </div>
+  	  <div class="top-menu  btn-top-group  pull-right">
+  	  	<ul class="list-inline  user-menu">
+			    <li class="dropdown"><a href="#" title = "Личный кабинет" class="dropdown-toggle" data-toggle="dropdown">
+				    <span class="glyphicon  glyphicon-user"></span> 
+				    <span class="hidden-xs  hidden-sm  hidden-md">Личный кабинет</span>
+				    <span class="caret"></span></a>
+				      <ul class="dropdown-menu  dropdown-menu-right">
+					      <li><a href="#">Регистрация</a></li>
+					      <li><a href="#">Авторизация</a></li>
+				      </ul>
+			    </li>
+			    <li><a href="#">
+				    <span class="glyphicon  glyphicon-heart"></span> 
+				    <span class="hidden-xs  hidden-sm hidden-md">Мои закладки (0)</span></a></li>
+		    	<li><a href="#">
+				    <span class="glyphicon  glyphicon-shopping-cart"></span> 
+				    <span class="hidden-xs  hidden-sm  hidden-md">Корзина покупок</span>
+			    </a></li>
+			    <li><a href="#">
+			      <span class="glyphicon  glyphicon-share-alt"></span>
+				    <span class="hidden-xs  hidden-sm  hidden-md">Оформление заказа</span>
+          </a></li>
+		    </ul>
+  	  </div>
+    </div>
+  </div>
 
 
+  <div class="container">
+    <header class="header">
+  	  <div class="header__background-image hidden-sm  hidden-xs">
+  		
+  	  </div>
+
+  	  <div class="search-block">
+  	    <form class="form-search input-group" id="form-search">
+          <input type="text" name="search" placeholder="Поиск..." class="form-control input-lg">
+          <span class="input-group-btn">
+            <button type="submit" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </form>
+  	  </div>
+
+      <nav class="navigation-menu  navbar" id="nav-menu">
+        <div class="navbar-header">
+          <span class="visible-xs" id="category">Категории</span>
+          <button type="button" class="btn  btn-navbar  navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <i class="menu-icon  glyphicon  glyphicon-align-justify"></i>
+        </button>
+        </div>
+        <div class="collapse  navbar-collapse  navbar-ex1-collapse">
+    	    <ul class="nav  navbar-nav">
+    	  	  <li><a href="#">Главная</a></li>
+    	  	  <li class="spec-background"><a href="#">Акции</a></li>
+    	  	  <li><a href="#">Масла</a></li>
+    	  	  <li><a href="#">Монотравы</a></li>
+    	  	  <li><a href="#">Скипидарные ванны</a></li>
+    	  	  <li><a href="#">Фитолюксы</a></li>
+    	  	  <li><a href="#">Чайные напитки</a></li>
+    	  	  <li><a href="#">Экстракты в капсулах</a></li>
+    	  	  <li class="spec-background"><a href="#">Доставка</a></li>
+    	  	  <li class="spec-background"><a href="#">Контакты</a></li>
+            <li class="nav-cart spec-background"><a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+  	      </ul>
+        </div>
+  	  </nav>
+    </header>
 
 
-	</div>
+    <main>
+      
+      <div class="product-grid">
+        <h3>Продукция</h3>
+          <div class="grid-block">
+          <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    АКЦИИ
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+
+            <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    МАСЛА И КРЕМА
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+         
+
+           <a href="#" class="grid-block__grid-item">
+            <figure>
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    ЛЕКАРСТВЕННЫЕ ТРАВЫ
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+        
+
+            <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    СКИПИДАРНЫЕ ВАННЫ
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+      
+
+            <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    ФИТОЛЮКСЫ
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+
+          <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    ЧАЙНЫЕ НАПИТКИ
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+
+          <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    ЭКСТРАКТЫ В КАПСУЛАХ
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+
+<!-- end of grid-block-->
+      </div>
+  
+
+
+      <h3>
+        Системы органов
+      </h3>    
+      <div class="grid-block">
+          <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    ДЫХАТЕЛЬНАЯ СИСТЕМА
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+
+            <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    ИММУННАЯ СИСТЕМА
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+         
+
+           <a href="#" class="grid-block__grid-item">
+            <figure>
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    ОПОРНО-ДВИГАТЕЛЬНАЯ СИСТЕМА
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+        
+
+            <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    ПИЩЕВАРИТЕЛЬНАЯ СИСТЕМА
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+      
+
+            <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    ПОЧКИ И МОЧЕПОЛОВАЯ СИСТЕМА
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+
+          <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    СЕРДЕЧНО-СОСУДИСТАЯ И НЕРВНАЯ СИСТЕМА
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+
+          <a href="#" class="grid-block__grid-item">
+            <figure>
+              
+                <img src="img/25.png">
+                <figcaption class="grid-block__block-name">
+                  <h4>
+                    ЭНДОКРИННАЯ СИСТЕМА
+                  </h4>
+                </figcaption>
+              
+             </figure>
+          </a>
+
+      </div>
+
+<!-- end of grid-block-->
+    </div> 
+    
+    </main>
+
+
+<!-- end of container-->
+  </div> 
+
+
+    <footer>
+      <div class="container">
+        <div class="footer-info">
+          <div class="footer-info-block">
+            <h5 class="footer-info-block__info-header">
+              Информация
+            </h5>
+            <div class="footer-info-block__info-item">
+              <a href="#">
+                О нас
+              </a>
+              <a href="#">
+                Оплата 
+              </a>
+              <a href="#">
+                Доставка  
+              </a>
+              <a href="#">
+                Публичное соглашение  
+              </a>
+            </div>
+          </div>
+          <div class="footer-info-block">
+            <h5 class="footer-info-block__info-header">
+              Контакты
+            </h5>
+            <div class="footer-info-block__info-item">
+              <a href="#">
+                Связаться с нами
+              </a>
+              <a href="#">
+                Возврат товара 
+              </a>
+              <a href="#">
+                Карта сайта  
+              </a>
+              <a href="#">
+                Как проехать  
+              </a>
+            </div>
+          </div>
+          <div class="footer-info-block">
+            <h5 class="footer-info-block__info-header">
+              Важно
+            </h5>
+            <div class="footer-info-block__info-item">
+              <a href="#">
+                Акции
+              </a>
+              <a href="#">
+                Бренд 
+              </a>
+              <a href="#">
+                Наши партнёры  
+              </a>
+              <a href="#">
+                Подарочные сертификаты  
+              </a>
+            </div>
+          </div>
+          <div class="footer-info-block">
+            <h5 class="footer-info-block__info-header">
+              Личный кабинет
+            </h5>
+            <div class="footer-info-block__info-item">
+              <a href="#">
+                Войти
+              </a>
+              <a href="#">
+                Регистрация 
+              </a>
+              <a href="#">
+                Мои закладки  
+              </a>
+              <a href="#">
+                Новостная рассылка  
+              </a>
+            </div>
+          </div>
+          
+        </div>
+        
+
+        <hr>
+
+        <div class="copyright-info">
+          <p>
+            Сделано в Almori
+          </p>
+          <p>
+            Народная медицина 2017
+          </p>
+        </div>
+      </div>
+      
+    </footer>
+
+
+
+
+
 
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/main.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
 
-        var $menu = $("#menu");
-         $(window).scroll(function(){
-            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
-                $menu.removeClass("default").addClass("fixed");
-            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
-                $menu.removeClass("fixed").addClass("default");
-            }
-        });//scroll
-    });
-</script>
 </body>
 </html>

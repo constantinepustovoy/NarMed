@@ -1,168 +1,271 @@
+@media screen and (max-width: 991px) {
 
+.container {
+	min-width: 100%;
+	padding: 0 !important;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+.nav-cart {
+  visibility: collapse;
+}
+
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-padding-start: 0;
+	-webkit-padding-before: 0;
+	-webkit-padding-after: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	box-sizing: border-box;
+}
 
 body {
-	height: 900px;
+	width: 100%;
+	height: 1500px;
+	background-color: #fff;
+}
+
+a {
+	font-size: 14px;
+	color: #000;
 }
 
 .top-panel {
 	width: 100%;
-	background-color: #F5F5F5;
-	box-sizing: border-box;
-	border-bottom: 1px solid #e2e2e2;
-	display: block;
-	min-height: 50px;
-	overflow: visible;
-	margin-bottom: 0px;
-
+	background: #eeeeee;
+	margin-bottom: 0;
+	min-height: 60px;
+	height: auto;
 }
 
-.shop-name {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
-	color: #999;
-	line-height: 45px;
-	margin-left: 11%;
+.top-panel:after {
+	content: " ";
+	clear: both;
+	display: table;
 }
 
-.top-icons {
-	display: block;
-	position: relative;
-	line-height: 45px;
-	margin-right: 11%;
+.top-panel__company-name {
+	font-size: 18px;
+	font-weight: 600;
+	color: #99765f;
+	vertical-align: middle;
+	padding-top: 15px;
 }
 
-.user-menu li a {
-	font-family: "Open Sans", sans-serif;
-	font-size: 12px;
-	text-decoration: none;
-	color: #999;
+.top-menu {
+	padding-top: 15px;
 }
 
 .container {
 	width: 80%;
+	height: auto;
+	margin: 0 auto;
 }
 
-.top-image {
-	background: url('../img/header.jpg') no-repeat;
-	background-size: cover;
-	-moz-background-size: cover;
-	background-position: center;
-	display: block;
-	max-width: 100%;
-	max-height: 400px;
-	padding-top: 25%;
+.header__background-image {
+	background: url("../img/header.jpg") no-repeat;
+	background-position: contain;
+	background-size: 100%;
+	width: 100%;
+	padding-bottom: 25%;
 }
 
-.searching-block {
-	margin-top: 10px;
-	background-color: #3BF150;
-	border-radius: 5px;
+.search-block {
+	border: 1px solid #777;
 }
 
-#form-search {
-	padding: 5px;
+.search-block input, 
+.search-block button {
+	width: screen;
+	border-radius: 0px;
+
 }
 
-#form-search:active {
-	padding: 5px;
+.navigation-menu {
+	background: #90fa87;
+	border-radius: 0;
+	border: none;
+	margin-bottom: -20px;
 }
 
-#form-search>span>button {
-	margin-right: 0;
-	outline: none;
+#nav-menu #category {
+	float: left;
+	
 }
 
-.bag-block {
-	margin-top: 10px;
-	padding-right: 0;
-	display: block;
+
+.navbar-header span {
+	padding-top: 12px;
+	padding-left: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #51944e;
 }
 
-.bag-block>button {
+.menu-icon {
+	float: right;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	color: #51944e;
+}
+
+.navbar-header:after {
+	content: " ";
+	clear: both;
+	display: table;
+}
+
+
+.spec-background a {
+	background-color: #ff9a02;
 	color: #fff;
-	background: linear-gradient(to bottom, #FFB037, #FF9900);
-	background:-webkit-linear-gradient(to bottom, #FFB037, #FF9900);
-    background:-moz-linear-gradient(to bottom, #FFB037, #FF9900);
-    background:-ms-linear-gradient(to bottom, #FFB037, #FF9900);
-	height: 56px;
-	font-size: 16px;
+	font-weight: 600;
+
 }
 
-.bag-block>button:hover {
-	background: #FF9A00;
-	font-size: 16px;
+.spec-background a:hover {
+	background-color: #ff9a02;
+	color: #000;
+	font-weight: 600;
 }
-
-
 
 main {
-	height: 1100px;
+	background-color: #f3fff0;
+	padding-top: 20px;
 }
 
-.navigation {
-	margin-top: 10px;
-	background: #3BF150;
-	border-radius: 5px;
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	text-shadow: 1px 1px 2px #428d2a;
+	color: #428d2a;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 
-nav>ul>li>a {
-	font-size: 16px;
-	color: #fff;
+h4 {
+	font-size: 14px;
+	padding: 0 10px;
 }
 
-.payment-btn,
-.delivery-btn {
-	height: 50px;
-	margin-top: 10px;
-	color: #fff;
-	background: linear-gradient(to bottom, #FFB037, #FF9900);
-	background:-webkit-linear-gradient(to bottom, #FFB037, #FF9900);
-    background:-moz-linear-gradient(to bottom, #FFB037, #FF9900);
-    background:-ms-linear-gradient(to bottom, #FFB037, #FF9900);
-    text-decoration: none;
-    font-size: 16px;
-
-}
-
-.payment,
-.delivery {
-	padding-right: 0;
+.grid-block {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: stretch;
+	margin-right: -20px;
 
 }
 
-.payment-btn:hover,
-.delivery-btn:hover {
-	color: #006;
-	background: #FF9A00;
-    text-decoration: none;
-    text-shadow: none;
-    font-size: 18px;
+.grid-block__grid-item {
+	min-width: 250px;
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #cecece;
+	border-radius: 3px;
+	margin-bottom: 30px;
+	flex-basis: auto;
+	flex-grow: 2;
+	margin-right: 20px;
 }
 
-@media screen and (max-width: 767px) {
+.grid-block__grid-item figcaption {
+	background: #eeeeee;
+}
 
-.container {
+.grid-block__grid-item img {
+	display: block;
+	margin: 0 auto;
+}
+
+.grid-block__grid-item:hover {
+	box-shadow: 0 0 3px #cecece;
+	color: #7a7aff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #7a7aff;
+	outline: none;
+
+}
+
+.grid-block__block-name {
 	width: 100%;
+	padding: 10px 0;
+	text-align: center;
 }
 
-.bag-block {
-	padding-left: 0;
+.product-grid {
+	padding-bottom: 50px;
 }
 
-.delivery,
-.payment {
-	
-	padding-left: 0;
+footer {
+	width: 100%;
+	background-color: #f7cd76;
 }
 
-.payment {
-	padding-right: 5px;
+.footer-info {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 30px;
+
 }
 
-.delivery {
-	padding-left: 5px;
+.footer-info-block {
+	min-width: 300px;
+	max-width: 100%;
+	padding-bottom: 20px;
+
 }
 
+.footer-info-block__info-item {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.footer-info-block__info-header {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #353029;
+}
+
+.footer-info-block__info-item a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #706c66;
+	line-height: 28px;
+	letter-spacing: 1px;
+}
+
+hr {
+	border-top: 1px solid #706c66;
+}
+.copyright-info {
+	padding-top: 20px;
+}
+
+.copyright-info p {
+	color: #000;
 }
 
 
