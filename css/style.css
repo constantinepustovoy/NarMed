@@ -36,7 +36,7 @@ html {
 
 body {
 	width: 100%;
-	height: 1500px;
+	height: auto;
 	background-color: #fff;
 }
 
@@ -73,6 +73,7 @@ a {
 
 .container {
 	width: 80%;
+	max-width: 1230px;
 	height: auto;
 	margin: 0 auto;
 }
@@ -106,6 +107,7 @@ a {
 .sticky-menu {
 	position: fixed;
 	top: 0;
+	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
 }
