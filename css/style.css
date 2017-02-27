@@ -9,9 +9,9 @@
 
 @media screen and (min-width: 768px) {
 
-.nav-cart {
+/*.nav-cart {
   visibility: collapse;
-}
+}*/
 
 }
 
@@ -103,11 +103,24 @@ a {
 	margin-bottom: -20px;
 }
 
+.sticky-menu {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.nav-menu {
+	min-width: 200px;
+	max-width: 1600px;
+	height: inherit;
+	margin: auto;
+}
+
 #nav-menu #category {
 	float: left;
 	
 }
-
 
 .navbar-header span {
 	padding-top: 12px;
