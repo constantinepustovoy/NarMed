@@ -62,7 +62,7 @@ a {
 .top-panel__company-name {
 	font-size: 18px;
 	font-weight: 600;
-	color: #99765f;
+	color: #503ca0;
 	vertical-align: middle;
 	padding-top: 15px;
 }
@@ -79,11 +79,11 @@ a {
 }
 
 .header__background-image {
-	background: url("../img/header.jpg") no-repeat;
+	background: url("../img/header_blue.jpg") no-repeat;
 	background-position: contain;
 	background-size: 100%;
 	width: 100%;
-	padding-bottom: 25%;
+	padding-bottom: 32.5%;
 }
 
 .search-block {
@@ -94,11 +94,12 @@ a {
 .search-block button {
 	width: screen;
 	border-radius: 0px;
+	background-color: #dbfcff;
 
 }
 
 .navigation-menu {
-	background: #90fa87;
+	background: #86b7ff;
 	border-radius: 0;
 	border: none;
 	margin-bottom: -20px;
@@ -129,7 +130,8 @@ a {
 	padding-left: 10px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 20px;
-	color: #51944e;
+	color: #2537ff;
+	font-weight: 700;
 }
 
 .menu-icon {
@@ -137,7 +139,7 @@ a {
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
-	color: #51944e;
+	color: #2537ff;
 }
 
 .navbar-header:after {
@@ -148,7 +150,7 @@ a {
 
 
 .spec-background a {
-	background-color: #ff9a02;
+	background-color: #4e55fa;
 	color: #fff;
 	font-weight: 600;
 
@@ -161,7 +163,7 @@ a {
 }
 
 main {
-	background-color: #f3fff0;
+	background-color: #f1f4ff;
 	padding-top: 20px;
 }
 
@@ -169,7 +171,7 @@ h3 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 28px;
 	text-shadow: 1px 1px 2px #428d2a;
-	color: #428d2a;
+	color: #4e36ff;
 	padding-top: 30px;
 	padding-left: 20px;
 	padding-bottom: 20px;
@@ -232,7 +234,7 @@ h4 {
 
 footer {
 	width: 100%;
-	background-color: #f7cd76;
+	background-color: #99765f;
 }
 
 .footer-info {
@@ -267,7 +269,7 @@ footer {
 .footer-info-block__info-item a {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	color: #706c66;
+	color: #fff;
 	line-height: 28px;
 	letter-spacing: 1px;
 }
